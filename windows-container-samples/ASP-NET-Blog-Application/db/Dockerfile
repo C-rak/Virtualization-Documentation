@@ -1,4 +1,4 @@
-FROM microsoft/mssql-server-2014-express-windows
+FROM nanoserver/mysql
 
 # SQL environmental variables
 ENV sa_password "Password123"
